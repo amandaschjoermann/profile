@@ -1,0 +1,256 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+  background: linear-gradient(white, rgb(255, 190, 3, 0.8));
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 0.1;
+  top-margin: 50px;
+}
+
+div h2 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  top-margin: none;
+}
+
+h4 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+
+.first-div h2 {
+  font-size: 18.5px;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.55;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 1
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 10px auto;
+}
+
+#øl:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+ }
+
+.inline {
+  list-style: none;
+  padding-left: 0;
+  width: 50%;
+}
+
+.inline li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#profile-icon {
+  font-size: 45px;
+  opacity: 0.4;
+  position: absolute;
+  top: 25px;
+  left: 330px;
+}
+
+#profile-picture {
+  margin: 20px;
+}
+
+.image {
+    background-image: url("https://scontent-amt2-1.xx.fbcdn.net/v/t1.15752-9/36547156_10216717318744594_794570444408619008_n.jpg?_nc_cat=0&oh=b7215cc25456dd100a638237bd89c1fb&oe=5BD7D718");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.image1 {
+    background-image: url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/05/08/15/tequila.jpg");
+    width: 80%;
+    height: 50%;
+    left: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 1px;
+}
+
+.text1 {
+    font-weight: lighter;
+    font-size: 35px;
+    background-color: transparent;
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    left: 320px;
+    transform: translate(-50%, -50%);
+    color: black;
+    box-shadow: none;
+    border: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.text1:hover {
+  opacity: 0.8;
+  text-shadow: -0.05px 0 rgb(255, 190, 3, 0.3), 0 0.05px rgb(255, 190, 3, 0.3), 0.05px 0 rgb(255, 190, 3, 0.3), 0 -0.05px rgb(255, 190, 3, 0.3);
+}
+
+
+.text {
+    background-color: transparent;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-shadow: none;
+    border: none;
+    text-shadow: -0.4px 0 #929292, 0 0.4px #929292, 0.4px 0 #929292, 0 -0.4px #929292;
+}
+
+#homepage {
+  text-align: none;
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+}
+
+#smaller {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+
+div form {
+  margin: none;
+  position: center;
+  width: 100%;
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+}
+
+
+div input{
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(255, 190, 3, 0.3);
+  border-radius: 5px;
+  text-align: left;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+
+#name:focus{
+  outline: none;
+  border: 2px solid rgb(255, 190, 3, 1);
+}
+
+
+button{
+  background-color: rgb(255, 190, 3, 0.8);
+  width: 320px;
+  height: 45px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(255, 190, 3, 1);
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+button:hover{
+  background-color: rgb(255, 190, 3, 1);
+  border-color: rgb(255, 190, 3, 1);
+}
+
+
+#end-text {
+  font-size: 12px;
+}
+
+#header2 {
+  font-size: 16px;
+  line-height: 0px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+#sidebar {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 20px;
+  left: 0;
+  top: 200px;
+  bottom: 190px;
+}
+
+.footer {
+  width: 80%;
+  position: bottom;
+  height: 0px;
+  right: 100;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 190, 3, 0.8);
+  text-align: center;
+  padding-left: 0;
+  border-radius: 1px;
+  box-shadow: none;
+  margin-bottom: 20px;
+  margin-top: none;
+}
+
+#footer-text {
+  font-size: 25px;
+  opacity: 0.5;
+  position: absolute;
+  left: 140px;
+  top: 1760px;
+}
+
+#footer-text1 {
+  font-size: 20px;
+  opacity: 0.5;
+  position: absolute;
+  left: 187px;
+  top: 1742px;
+}
